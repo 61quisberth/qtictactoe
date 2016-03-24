@@ -1,0 +1,8 @@
+# build directory
+build
+
+# vim
+*.swp
+
+# qt
+*.pro.user

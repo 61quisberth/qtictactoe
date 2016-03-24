@@ -1,0 +1,3 @@
+- setup unit tests for changing text when board buttons are clicked on
+- mv ui stuff into separate dir rather than sharing with src
+- build instructions
