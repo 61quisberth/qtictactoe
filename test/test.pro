@@ -1,5 +1,14 @@
 include(../global.pri)
 QT += widgets testlib
 
-SOURCES = test_gui.cpp
+INCLUDEPATH += $${ROOT_DIRECTORY}/src/
+INCLUDEPATH += $${ROOT_DIRECTORY}/lib/
+
+HEADERS += \
+  $${ROOT_DIRECTORY}/src/mainwindow.h
+
+SOURCES += \
+  $${ROOT_DIRECTORY}/src/mainwindow.cpp \ 
+  test_gui.cpp
+
 TARGET = test_gui

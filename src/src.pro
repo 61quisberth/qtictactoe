@@ -3,6 +3,7 @@
     error( "Couldn't find the global.pri file!" )
 }
 
+INCLUDEPATH += $${ROOT_DIRECTORY}/lib/
 TARGET = qtictactoe
 
 SOURCES += \
