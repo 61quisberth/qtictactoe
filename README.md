@@ -4,11 +4,12 @@ TicTacToe game implemented in C++ using Qt framework
 
 Incomplete, in very early stages, hacking away from example Qt code
 
-TODO (high-level)
+TODO
 ---
-- implement Qtest code testing ui
-- implement signal and slot code for gameboard
-- implement game logic
+- Qtest code testing ui
+- signal and slot code for gameboard
+- notification upon winner
+- create abstraction for start/during/end game action
 
 Dependencies
 ---
